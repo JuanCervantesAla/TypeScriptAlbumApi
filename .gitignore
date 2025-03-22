@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Compilación de TypeScript
+dist/
+out/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caché de paquetes
+.pnpm
+.pnp
+.pnp.js
+
+# Dependencias bloqueadas
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Configuración de editores de texto
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
